@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mapa Mental Diário</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>🧠 Meu Mapa Mental Diário</h1>
+    <p>Organize sua rotina de forma visual, leve e motivadora!</p>
+  </header>
+
+  <main>
+    <section id="mind-map">
+      <div class="bubble" onclick="addNote('Rotina Matinal')">🌅 Rotina Matinal</div>
+      <div class="bubble" onclick="addNote('Estudo Focado')">📚 1 Hora 100% Foco</div>
+      <div class="bubble" onclick="addNote('Solucionar Problemas')">🛠️ Resolver Problemas</div>
+      <div class="bubble" onclick="addNote('Encerrar o Dia')">🌙 Desacelerar</div>
+    </section>
+
+    <section id="notes">
+      <h2>Notas / Post-its</h2>
+      <ul id="note-list"></ul>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
